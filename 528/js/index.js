@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|3|2|1||5.28|Happy|Birthday|   to   |  U  |生日快乐|永远开心|||蛋糕|||');
+      S.UI.simulate('|||3|2|1||5.28|生日快乐|永远开心|||');
     }
 
     S.Drawing.loop(function () {
